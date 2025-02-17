@@ -1,11 +1,11 @@
 import pyodbc
 import csv
 
-server = 'ALFRED\\SQLEXPRESS'  # Nome do servidor
+server = '######\\SQLEXPRESS'  # Nome do servidor
 database = 'TESTESSQL'  # Nome do banco de dados
 
 conn_str = f"DRIVER={{SQL Server}};SERVER={server};DATABASE={database};Trusted_Connection=yes;"
-caminho_fixo = r"C:\Users\jean0\Desktop\Projetos\SQL\CSV\resultados.csv"
+caminho_fixo = r"C:\Users\#####\Desktop\Projetos\SQL\resultados.csv"
 filtro = input("Digite o filtro para buscar o nome do usuário (ou deixe vazio para todos): ")
 
 
