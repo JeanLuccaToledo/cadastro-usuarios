@@ -38,7 +38,6 @@ pip install -r requirements.txt
 ```sh
 python app.py
 ```
-O servidor estará disponível em **http://127.0.0.1:5000/**.
 
 ## 🏗 **Melhorias Futuras**
 - Adicionar validação de CPF e telefone.  
