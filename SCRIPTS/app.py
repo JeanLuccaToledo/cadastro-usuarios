@@ -4,7 +4,7 @@ import pyodbc
 app = Flask(__name__)
 
 # Configuração do banco de dados SQL Server
-server = "ALFRED\\SQLEXPRESS"
+server = "######\\SQLEXPRESS"
 database = "TESTESSQL"
 conn_str = f"DRIVER={{SQL Server}};SERVER={server};DATABASE={database};Trusted_Connection=yes;"
 
